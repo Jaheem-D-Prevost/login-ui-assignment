@@ -19,9 +19,9 @@
 
     <section class="login-box">
       <ul class="social-media-auth">
-        <li><a class="social-login">Continue With Twitter</a></li>
-        <li><a class="social-login">Continue With Google</a></li>
-        <li><a class="social-login">Continue With Reddit</a></li>
+        <li><a href="#" class="social-login twitter">Continue With Twitter</a></li>
+        <li><a href="#" class="social-login google">Continue With Google</a></li>
+        <li><a href="#" class="social-login reddit">Continue With Reddit</a></li>
       </ul>
       <form class="login-form" action="#" method="post">
         <label for="username">Email address or username
@@ -32,13 +32,13 @@
           <input id="password" type="password" placeholder="Password" required>
         </label>
 
-        <a href="#">Forgot your password?</a>
+        <a class="forgot-password" href="#">Forgot your password?</a>
 
         <label for="remember-me">
-          <input id="remember-me" type="checkbox"> Remember me
+          <input name="remember-account" value="true" id="remember-me" type="checkbox"> Remember me
         </label>
 
-        <button type="submit">Log In</button>
+        <button class="login-btn" type="submit">Log In</button>
       </form>
       
       <section class="sign-up">
