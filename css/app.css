@@ -107,13 +107,13 @@ body {
 .divider::before {
   content: "";
   border-bottom: 1px solid var(--space-cadet);
-  width: 40%;
+  width: 45%;
 }
 
 .divider::after {
   content: "";
   border-bottom: 1px solid var(--space-cadet);
-  width: 40%;
+  width: 45%;
 }
 
 .login-form {
