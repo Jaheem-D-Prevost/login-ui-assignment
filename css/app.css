@@ -18,6 +18,10 @@ body {
   align-items: center;
   min-height: 100vh;
   background-color: var(--baby-powder);
+  background-image: url('../images/background-img.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; 
 }
 
 .header {
@@ -27,6 +31,7 @@ body {
   align-self: stretch;
   padding: 0.75em 1em;
   border-bottom: 0.1px solid var(--eggplant-purple);
+  background-color: var(--baby-powder);
 }
 
 .logo {
