@@ -37,6 +37,9 @@ body {
 .login-box {
   display: flex;
   flex-direction: column;
+  border-radius: 20px;
+  background-color: var(--eggplant-purple);
+  margin: 1em 0.5em;
   padding: 1.5em 0.75em;
   row-gap: 2em;
 }
@@ -77,6 +80,8 @@ body {
   background-color: #ff4500;
   color: #ffffff;
 }
+
+
 
 .divider {
   display: flex;
