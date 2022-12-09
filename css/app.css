@@ -22,11 +22,16 @@ body {
 
 .header {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   align-self: stretch;
-  padding: 1.25em 1.5em;
+  padding: 0.75em 1em;
   border-bottom: 0.1px solid var(--eggplant-purple);
+}
+
+.logo {
+  max-width: 70px;
+  height: auto;
 }
 
 .login-box {
@@ -96,7 +101,7 @@ input {
   cursor: auto;
 }
 
-.forgot-password:focus, .forgot-password:hover {
+.forgot-password:hover, .forgot-password:focus {
   text-decoration: underline;
 }
 
