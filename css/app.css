@@ -185,3 +185,9 @@ input {
   background-color: var(--baby-powder);
   color: #000000;
 }
+
+@media screen and (min-width: 490px) {
+  .login-box {
+    max-width: 479px;
+  }
+} 
