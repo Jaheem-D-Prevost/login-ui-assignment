@@ -1,4 +1,4 @@
-:root {
+:root { 
   --tomato-image: #FF6542;
   --eggplant-purple: #564154;
   --space-cadet: #25283D;
@@ -192,5 +192,36 @@ input {
 @media screen and (min-width: 490px) {
   .login-box {
     max-width: 479px;
+  }
+
+  .login-form{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-areas: 
+    "un un"
+    "pw pw"
+    "fp fp"
+    "rm li";
+    align-items: center;
+  }
+
+  .username {
+    grid-area: un;
+  }
+
+  .password {
+    grid-area: pw;
+  }
+
+  .forgot-password {
+    grid-area: fp;
+  }
+
+  .remember-me {
+    grid-area: rm;
+  }
+
+  .login-btn {
+    grid-area: li;
   }
 } 
